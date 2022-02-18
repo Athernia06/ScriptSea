@@ -15,8 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
     />
     <!-- MDB -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
-    <link href="{{ asset('css/mdb.min.css') }}" rel="stylesheet">
+    <link href="/assets/css/mdb.min.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
     <!-- Start your project here-->
@@ -85,7 +84,7 @@
                     <div class="row g-0">
                       <div class="col-md-4 d-none d-md-block">
                         <img
-                          src="img/login/campus.jpg"
+                          src="assets/img/login/campus.jpg"
                           alt="login form"
                           class="img-fluid" style="border-top-left-radius: 1rem; border-bottom-left-radius: 1rem;"
                         />
@@ -110,7 +109,7 @@
                               <button class="btn btn-primary btn-rounded" type="button" style="background-color: #92aad0;">Log in</button>
                             </div>
                             <hr>
-                            <a class="link float-end" href="dashboard.html">Forgot password? Click here.</a>
+                            <a class="link float-end" href="Dashboard">Forgot password? Click here.</a>
                           </form>
       
                         </div>
@@ -126,7 +125,7 @@
       <!--Section: Design Block-->
       <section>
         <!-- Intro -->
-        <div id="intro" class="bg-image vh-100" style="background-image: url('img/login/landing.jpg');">
+        <div id="intro" class="bg-image vh-100" style="background-image: url('assets/img/login/landing.jpg');">
           <div style="background-color: rgba(250, 182, 162, 0.15);"></div>
         </div>
         <!-- Intro -->

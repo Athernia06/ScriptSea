@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
     />
     <!-- MDB -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link href="/assets/css/mdb.min.css" rel="stylesheet" type="text/css"/>
   </head>
   <body style="background: linear-gradient(to right, rgba(102, 126, 234, 1), rgba(118, 75, 162, 1))">
     <!-- Start your project here-->
@@ -29,7 +29,7 @@
     <div class="position-sticky">
       <div class="list-group list-group-flush mx-3 mt-4" style="border-radius: 1rem;">
         <a
-           href="dashboard.html"
+           href="Dashboard"
            class="list-group-item list-group-item-action py-2 ripple"
            aria-current="true"
            >
@@ -37,25 +37,25 @@
             ><span>Main dashboard</span>
         </a>
         <a
-           href="profile.html"
+           href="Profile"
            class="list-group-item list-group-item-action py-2 ripple"
            >
           <i class="fas fa-user fa-fw me-3"></i
             ><span>Profile</span>
         </a>
         <a
-           href="pengajuan.html"
+           href="Pengajuan"
            class="list-group-item list-group-item-action py-2 ripple active"
            ><i class="fas fa-sticky-note fa-fw me-3"></i><span>Pengajuan</span></a
           >
         <a
-           href="bimbingan.html"
+           href="Bimbingan"
            class="list-group-item list-group-item-action py-2 ripple"
            ><i class="fas fa-comments fa-fw me-3"></i
           ><span>Bimbingan</span></a
           >
         <a
-           href="skripsi.html"
+           href="Skripsi"
            class="list-group-item list-group-item-action py-2 ripple"
            >
           <i class="fas fa-book-open fa-fw me-3"></i><span>Skripsi</span>
@@ -87,7 +87,7 @@
       </button>
 
       <!-- Brand -->
-      <a class="navbar-brand" href="dashboard.html"><span style="color: #fff;">ScriptSea</span></a>
+      <a class="navbar-brand" href="Dashboard"><span style="color: #fff;">ScriptSea</span></a>
       <!-- Search form -->
       <form class="d-none d-md-flex input-group w-auto my-auto">
         <input
@@ -255,8 +255,8 @@
           <h5 class="mb-0 text-center">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="dashboard.html">Dashboard</a></li>
-                <li class="breadcrumb-item"><a href="pengajuan.html">Pengajuan</a></li>
+                <li class="breadcrumb-item"><a href="Dashboard">Dashboard</a></li>
+                <li class="breadcrumb-item"><a href="Pengajuan">Pengajuan</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Proposal</li>
               </ol>
             </nav>
