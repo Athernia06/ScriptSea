@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Templating
+Route::get('/', function () {
+    return view('index');
+});
 Route::get('Home', function () {
     return view('index');
 });
@@ -40,3 +44,8 @@ Route::get('BimbinganDosen', function () {
 Route::get('Skripsi', function () {
     return view('skripsi');
 });
+
+// Autentikasi
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
