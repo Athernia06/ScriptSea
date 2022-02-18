@@ -21,7 +21,7 @@
 <!--Section: Minimal statistics cards-->
 <section>
   <div class="row">
-    <div class="col-xl-6 col-sm-3 col-12 mb-4">
+    <div class="col-xl-6 col-sm-6 col-12 mb-4">
       <div class="card">
         <a href="BimbinganMahasiswa">
           <div class="card-body link-primary">
@@ -37,7 +37,7 @@
         </a>
       </div>
     </div>
-    <div class="col-xl-6 col-sm-3 col-12 mb-4">
+    <div class="col-xl-6 col-sm-6 col-12 mb-4">
       <div class="card">
         <a href="BimbinganDosen">
           <div class="card-body link-success">

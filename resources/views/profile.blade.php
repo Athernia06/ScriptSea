@@ -21,7 +21,7 @@
 <!-- Section: Form Profile-->
 <section>
   <div class="row">
-    <div class="col-xl-8 col-sm-8 col-12 mb-4" style="">
+    <div class="col-xl-8 col-sm-8 col-12 mb-4">
       <div class="card">
         <form class="card-body">
           <!-- 2 column grid layout with text inputs for the first and last names -->
@@ -65,7 +65,7 @@
           
           <!-- Email input -->
           <div class="form-outline mb-4">
-            <input type="email" id="form6Example5" class="form-control" />
+            <input type="text" id="form6Example5" class="form-control" />
             <label class="form-label" for="form6Example5">Jurusan</label>
           </div>
           

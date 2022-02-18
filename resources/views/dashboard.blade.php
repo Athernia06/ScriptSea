@@ -23,14 +23,14 @@
   <div class="row">
     <div class="col-xl-3 col-sm-3 col-12 mb-4">
       <div class="card">
-        <a href="index.html">
+        <a href="#">
           <div class="card-body link-primary">
             <div class="d-flex justify-content-between px-md-1">
               <div class="align-self-center">
                 <i class="fas fa-pencil-alt text-info fa-3x"></i>
               </div>
               <div class="text-end">
-                <h3>278</h3>
+                <h3>375</h3>
                 <p class="mb-0">FORMULIR</p>
               </div>
             </div>
@@ -40,14 +40,14 @@
     </div>
     <div class="col-xl-3 col-sm-3 col-12 mb-4">
       <div class="card">
-        <a href="">
+        <a href="#">
           <div class="card-body link-success">
             <div class="d-flex justify-content-between px-md-1">
               <div class="align-self-center">
-                <i class="far fa-comment-alt text-warning fa-3x"></i>
+                <i class="fa-solid fas fa-check text-warning fa-3x"></i>
               </div>
               <div class="text-end">
-                <h3>156</h3>
+                <h3>246</h3>
                 <p class="mb-0">DISETUJUI</p>
               </div>
             </div>
@@ -57,14 +57,14 @@
     </div>
     <div class="col-xl-3 col-sm-3 col-12 mb-4">
       <div class="card">
-        <a href="">
+        <a href="#">
           <div class="card-body link-warning">
             <div class="d-flex justify-content-between px-md-1">
               <div class="align-self-center">
                 <i class="fas fa-chart-line text-success fa-3x"></i>
               </div>
               <div class="text-end">
-                <h3>65.7%</h3>
+                <h3>86</h3>
                 <p class="mb-0">DITINJAU</p>
               </div>
             </div>
@@ -74,14 +74,14 @@
     </div>
     <div class="col-xl-3 col-sm-3 col-12 mb-4">
       <div class="card">
-        <a href="">
+        <a href="#">
           <div class="card-body link-danger">
             <div class="d-flex justify-content-between px-md-1">
               <div class="align-self-center">
-                <i class="fas fa-map-marker-alt text-danger fa-3x"></i>
+                <i class="fas fa-times text-danger fa-3x"></i>
               </div>
               <div class="text-end">
-                <h3>423</h3>
+                <h3>43</h3>
                 <p class="mb-0">DITOLAK</p>
               </div>
             </div>
