@@ -23,8 +23,23 @@
 <section>
   <div class="row">
     <div class="card-body  col-xl-8 col-sm-12 col-12 mb-4" style="background: white; border-radius: 0.5rem; padding: 1.5rem !important;">
-      <iframe width="100%" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-      </iframe>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="panel panel-default">
+            <div class="panel-heading">Chats</div>
+            
+            <div class="panel-body">
+              <chat-messages :messages="messages"></chat-messages>
+            </div>
+            <div class="panel-footer">
+              <chat-form
+              v-on:messagesent="addMessage"
+              :user="{{ Auth::user() }}"
+              ></chat-form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="col-xl-4 col-sm-12 col-12 mb-4">
       <div class="card">

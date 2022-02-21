@@ -20,9 +20,7 @@ Route::get('/', function () {
 Route::get('Home', function () {
     return view('index');
 });
-Route::get('Dashboard', function () {
-    return view('dashboard');
-});
+
 Route::get('Profile', function () {
     return view('profile');
 });
@@ -35,9 +33,6 @@ Route::get('PengajuanProposal', function () {
 Route::get('Bimbingan', function () {
     return view('bimbingan');
 });
-Route::get('BimbinganMahasiswa', function () {
-    return view('bimbstudent');
-});
 Route::get('BimbinganDosen', function () {
     return view('bimbdosen');
 });
@@ -48,4 +43,8 @@ Route::get('Skripsi', function () {
 // Autentikasi
 Auth::routes();
 
+Route::get('Dashboard', [App\Http\Controllers\HomeController::class, 'dashboard'])->name('dashboard');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('BimbinganMahasiswa', [App\Http\Controllers\ChatsController::class, 'index']);
+Route::get('BimbinganMahasiswa/messages', [App\Http\Controllers\ChatsController::class, 'fetchMessages']);
+Route::post('BimbinganMahasiswa/messages', [App\Http\Controllers\ChatsController::class, 'sendMessage']);

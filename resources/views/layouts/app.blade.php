@@ -8,8 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    
     
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -297,7 +296,7 @@
 <!--Main Navigation-->
 
 <!--Main layout-->
-<main style="margin-top: 58px; background: linear-gradient(to right, rgba(102, 126, 234, 1), rgba(118, 75, 162, 1))">
+<main id="app" style="margin-top: 58px; background: linear-gradient(to right, rgba(102, 126, 234, 1), rgba(118, 75, 162, 1))">
     <div class="container pt-4">
         <!-- Section: Main chart
             <section class="mb-4">
@@ -408,7 +407,8 @@
     </main>
     <!--Main layout-->
     <!-- End your project here-->
-    
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
     <!-- MDB -->
     <script type="text/javascript" src="/assets/js/mdb.min.js"></script>
     <!-- Custom scripts -->
