@@ -65,7 +65,7 @@
   <section>
     <div class="card-body col-xl-12 col-sm-12 col-12 mb-4" style="background: white; border-radius: 0.5rem; padding: 1.5rem !important;">
       <h5 class="mb-5 text-center">Status Pengajuan Judul</h5>
-      <div class="alert alert-success" role="alert"><i class="fa-solid fas fa-check"></i> Proposal anda diterima! Silahkan menghubungi dosen terkait utnuk memulai bimbingan</div>
+      <div class="alert alert-success" role="alert"><i class="fa-solid fas fa-check"></i> Proposal anda diterima! Silahkan menghubungi dosen terkait untuk memulai bimbingan</div>
       <form>
         <!-- Name input -->
         <div class="form-outline mb-4">

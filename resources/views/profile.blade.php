@@ -81,12 +81,6 @@
             <label class="form-label" for="form6Example5">Ganti Password</label>
           </div>
           
-          <!-- Checkbox 
-            <div class="form-check d-flex justify-content-center mb-4">
-              <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
-              <label class="form-check-label" for="form6Example8"> Create an account? </label>
-            </div>-->
-          
           <!-- Submit button -->
           <button type="submit" class="btn btn-primary btn-block mb-4">Save Profile</button>
         </form>

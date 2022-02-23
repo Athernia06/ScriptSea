@@ -22,20 +22,24 @@
 <!--Section: Chat, Vcon, Upload File-->
 <section>
   <div class="row">
-    <div class="card-body  col-xl-8 col-sm-12 col-12 mb-4" style="background: white; border-radius: 0.5rem; padding: 1.5rem !important;">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="panel panel-default">
-            <div class="panel-heading">Chats</div>
-            
-            <div class="panel-body">
-              <chat-messages :messages="messages"></chat-messages>
-            </div>
-            <div class="panel-footer">
-              <chat-form
-              v-on:messagesent="addMessage"
-              :user="{{ Auth::user() }}"
-              ></chat-form>
+    <div class="col-xl-8 col-sm-12 col-12 mb-4">
+      <div class="card">
+        <div class="card-body col-xl-8 col-sm-12 col-12 mb-4" style="overflow:auto; max-height:50%; background: white; border-radius: 0.5rem; padding: 1.5rem !important;">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="panel panel-default">
+                <div class="panel-heading">Chats</div>
+                
+                <div class="panel-body">
+                  <chat-messages :messages="messages"></chat-messages>
+                </div>
+                <div class="panel-footer">
+                  <chat-form
+                  v-on:messagesent="addMessage"
+                  :user="{{ Auth::user() }}"
+                  ></chat-form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
