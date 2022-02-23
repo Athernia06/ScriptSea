@@ -25,19 +25,19 @@
     <form>
       <!-- Name input -->
       <div class="form-outline mb-4">
-        <input value="Muhammad Rafi" type="text" id="form6Example3" class="form-control" />
+        <input type="text" id="form6Example3" class="form-control" />
         <label class="form-label" for="form6Example3">Nama Lengkap</label>
       </div>
       
       <!-- Text input -->
       <div class="form-outline mb-4">
-        <input value="54418811" type="text" id="form6Example3" class="form-control" />
+        <input type="text" id="form6Example3" class="form-control" />
         <label class="form-label" for="form6Example3">NPM</label>
       </div>
       
       <!-- Text input -->
       <div class="form-outline mb-4">
-        <input value="Sistem Bimbingan Skripsi" type="text" id="form6Example4" class="form-control" />
+        <input type="text" id="form6Example4" class="form-control" />
         <label class="form-label" for="form6Example4">Judul</label>
       </div>
       
@@ -69,19 +69,19 @@
       <form>
         <!-- Name input -->
         <div class="form-outline mb-4">
-          <input value="Dosen 1" type="text" id="form6Example3" class="form-control" />
+          <input type="text" id="form6Example3" class="form-control" />
           <label class="form-label" for="form6Example3">Dosen Pembimbing 1</label>
         </div>
         
         <!-- Text input -->
         <div class="form-outline mb-4">
-          <input value="Dosen 2"type="text" id="form6Example3" class="form-control" />
+          <input type="text" id="form6Example3" class="form-control" />
           <label class="form-label" for="form6Example3">Dosen Pembimbing 2</label>
         </div>
         
         <!-- Text input -->
         <div class="form-outline mb-4">
-          <input value="Sistem Bimbingan Skripsi" type="text" id="form6Example4" class="form-control" />
+          <input type="text" id="form6Example4" class="form-control" />
           <label class="form-label" for="form6Example4">Judul</label>
         </div>
         
