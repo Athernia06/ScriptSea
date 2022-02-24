@@ -21,7 +21,7 @@
 <!-- Section: Form Profile-->
 <section>
   <div class="row">
-    <div class="col-xl-8 col-sm-8 col-12 mb-4">
+    <div class="col-xl-8 col-sm-12 col-12 mb-4">
       <div class="card">
         <form class="card-body" action="/Profile/update" method="POST" enctype="multipart/form-data">
           @csrf
@@ -103,7 +103,7 @@
         </form>
       </div>
     </div>
-    <div class="col-xl-4 col-sm-4 col-12 mb-4">
+    <div class="col-xl-4 col-sm-12 col-12 mb-4">
       <form action="/Profile/upload/foto" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="card">
@@ -122,8 +122,8 @@
             </div>
           </div>
         </div>
-      </div>
-    </form>
+      </form>
+    </div>
   </div>
 </section>
 @endsection
