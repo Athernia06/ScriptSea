@@ -268,7 +268,7 @@
                     aria-expanded="false"
                     >
                     <img
-                    src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg"
+                    src="{{ isset(Auth::user()->file) ? '/file/'.Auth::user()->file : 'https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg' }}"
                     class="rounded-circle"
                     height="22"
                     alt=""

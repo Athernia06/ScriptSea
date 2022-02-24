@@ -20,10 +20,6 @@ Route::get('/', function () {
 Route::get('Home', function () {
     return view('index');
 });
-
-Route::get('Profile', function () {
-    return view('profile');
-});
 Route::get('Pengajuan', function () {
     return view('pengajuan');
 });
@@ -42,6 +38,11 @@ Route::get('Skripsi', function () {
 
 // Autentikasi
 Auth::routes();
+
+Route::get('Profile', [App\Http\Controllers\HomeController::class, 'profile'])->name('profile');
+Route::post('Profile/update', [App\Http\Controllers\HomeController::class, 'profile_update'])->name('profile_update');
+Route::post('Profile/upload/foto', [App\Http\Controllers\HomeController::class, 'profile_upload'])->name('profile_upload');
+
 
 Route::get('Dashboard', [App\Http\Controllers\HomeController::class, 'dashboard'])->name('dashboard');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
