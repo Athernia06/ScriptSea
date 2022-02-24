@@ -29,13 +29,7 @@
             <div class="col">
               <div class="form-outline">
                 <input type="text" id="form6Example1" class="form-control" />
-                <label class="form-label" for="form6Example1">First name</label>
-              </div>
-            </div>
-            <div class="col">
-              <div class="form-outline">
-                <input type="text" id="form6Example2" class="form-control" />
-                <label class="form-label" for="form6Example2">Last name</label>
+                <label class="form-label" for="form6Example1">Full Name</label>
               </div>
             </div>
           </div>
