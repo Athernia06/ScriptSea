@@ -95,8 +95,9 @@
             <input type="hidden" name="old_password" value="{{ Auth::user()->password ?? '' }}" id="">
             {{-- <label class="form-label" for="form6Example5">Ganti Password</label> --}}
           </div>
-          <small class="alert-danger">* Kosongkan password jika tidak diganti</small>
-          
+          <small class="alert alert-danger">* Kosongkan password jika tidak diganti</small>
+          <br>
+          <br>
           <!-- Submit button -->
           <button type="submit" class="btn btn-primary btn-block mb-4">Save Profile</button>
         </form>
